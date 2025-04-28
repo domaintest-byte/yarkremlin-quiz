@@ -171,7 +171,7 @@ class Quiz {
                 <h2>Тест завершен! 🎉</h2>
                 <p>Ваш результат: ${this.score}/${this.questions.length}</p>
                 <p>${this.getFinalMessage()}</p>
-                <a href='example.com' style='color: black;'>Вернуться на главную страницу</a>
+                <a href='https://domaintest-byte.github.io/yarkremlin-quiz/quizyaroslavl/main/' style='color: black;'>Вернуться на главную страницу</a>
             </div>
         `;
         this.nextBtn.style.display = 'none';
