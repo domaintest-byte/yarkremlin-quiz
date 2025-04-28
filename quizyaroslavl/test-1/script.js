@@ -3,7 +3,7 @@ class Quiz {
         this.questions = [
             {
                 "question": "Чем отличаются природные зоны Ярославской области от соседних регионов? Можно ли это понять по экспонатам?",
-                "image": "https://i.cdn01.ru/files/users/images/c2/63/c263614db95c45f308656c1beedead3e.gif",
+                "image": "",
                 "answers": [
                     {"text": "Преобладание степных ландшафтов"},
                     {"text": "Больше болот и озер"},
