@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1 class="logo">Код Ярославля: разгадай историю</h1>
+        
+        <section class="hero">
+            <img src="./source/main_img.jpg" alt="Festival" class="hero-image">
+            <p class="description">Ярославский государственный историко-архитектурный и художественный музей-заповеедник — одно из крупнейших учреждений культуры и объектов туризма Ярославля.</p>
+            <a href="https://yarkremlin.tn-cloud.ru/" class="ticket-button">Купить билеты 🎫</a>
+        </section>
+
+        <section class="quiz-section">
+            <h2>Квиз!!!</h2>
+            <p class="quiz-description">Викторина! Проверь свои знания!</p>
+            
+            <div class="category-selector">
+                <button class="category active">Взрослым</button>
+                <button class="category">Детям</button>
+            </div>
+
+            <div class="quiz-container">
+                <!-- Для взрослых -->
+                <div class="quiz-card" data-category="adults" data-url="https://example.com/adult1">
+                    <img src="https://www.yarkremlin.ru/upload/iblock/fcc/fcc833584569671f2739e167abb5983a.JPG">
+                    <h3>Сокровища Ярославля</h3>
+                </div>
+                <div class="quiz-card" data-category="adults" data-url="https://example.com/adult2">
+                    <img src="https://yarkremlin.ru/upload/iblock/5ba/5ba63bc9b87b871376d5d82728a6c879.JPG">
+                    <h3>Иконы Ярославля XVI – XVIII вв.</h3>
+                </div>
+                <div class="quiz-card" data-category="adults" data-url="https://example.com/adult2">
+                    <img src="https://yarkremlin.ru/upload/iblock/128/1280a1cc259438922644e825514af817.png">
+                    <h3>История Ярославского края</h3>
+                </div>
+                <div class="quiz-card" data-category="adults" data-url="https://example.com/adult2">
+                    <img src="https://yarkremlin.ru/upload/iblock/f42/f422a93b77786b20d1a1b27a8932dbac.JPG">
+                    <h3>Природа Ярославского края</h3>
+                </div>
+                <div class="quiz-card" data-category="adults" data-url="https://example.com/adult2">
+                    <img src="https://yarkremlin.ru/upload/iblock/946/946c06d169764290464ff4f8bdfed52b.JPG">
+                    <h3>Слово о полку Игореве</h3>
+                </div>
+                <!-- Для детей -->
+                <div class="quiz-card" data-category="kids" data-url="https://example.com/kids1" style="display: none;">
+                    <img src="https://via.placeholder.com/100x100.png?text=Kids+1">
+                    <h3>Сказочные персонажи</h3>
+                </div>
+                <div class="quiz-card" data-category="kids" data-url="https://example.com/kids2" style="display: none;">
+                    <img src="https://via.placeholder.com/100x100.png?text=Kids+2">
+                    <h3>Мультфильмы</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+
+
+
+
+
+    <footer>
+        <div class="top-section" data-url="https://yarkremlin.ru/">
+            <img src="./source/yarkremlinlogo.svg" class="footer-links">
+            <p class="footer-links" style="font-style: italic;">Ярославский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>музей-заповедник</p>
+        </div>
+        <div class="top-section">
+            <img src="./source/yarguhistlogo.png" class="footer-links">
+            <p class="footer-links" style="font-family: 'Roboto', sans-serif; font-style: normal;">ИСТОРИЧЕСКИЙ<br>ФАКУЛЬТЕТ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>ЯрГУ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+        <p style="font-family: 'Roboto', sans-serif; font-style: normal;">© 2025 Все права защищены</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
