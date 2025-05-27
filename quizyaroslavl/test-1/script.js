@@ -84,22 +84,6 @@ class Quiz {
         this.loadQuestion();
     }
 
-    questions = [
-        {
-            question: "Какой язык программирования самый популярный в 2023 году?",
-            image: "https://via.placeholder.com/600x300",
-            answers: [
-                {text: "Python"},
-                {text: "JavaScript"},
-                {text: "Java"},
-                {text: "C++"}
-            ],
-            correctIndex: 0,
-            explanation: "Python остается самым популярным языком программирования по версии многих рейтингов"
-        },
-        // Добавьте еще 2 вопроса аналогичной структуры
-    ];
-
     loadQuestion() {
         this.quizContainer.innerHTML = '';
         const question = this.questions[this.currentQuestionIndex];
